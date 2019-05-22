@@ -1,7 +1,7 @@
 import React from 'react';
 import './Business.css';
 
-export class Business extends React.Component {
+class Business extends React.Component {
     render() {
         return (
             <div className="Business">
@@ -25,3 +25,5 @@ export class Business extends React.Component {
         );
     }
 }
+
+export default Business;
